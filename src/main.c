@@ -2,10 +2,10 @@
 // Created by Giovanni on 11/3/23.
 //
 #include <stdio.h>
-#include "include/input.h"
-#include "include/encrypt.h"
-#include "include/breaking_into.h"
-#include "include/free.h"
+#include "../include/input.h"
+#include "../include/encrypt.h"
+#include "../include/breaking_into.h"
+#include "../include/free.h"
 
 int main (int argc, char *argv[]){
 

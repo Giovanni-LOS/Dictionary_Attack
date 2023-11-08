@@ -5,8 +5,7 @@
 #include <openssl/sha.h>
 #include <stdio.h>
 #include <string.h>
-#include "include/encrypt.h"
-#include "include/input.h"
+#include "../include/encrypt.h"
 
 void encrypt(char *password, char *encrypted_password) {
     unsigned char hash[SHA256_DIGEST_LENGTH];

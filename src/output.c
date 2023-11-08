@@ -4,8 +4,7 @@
 
 #include <stdio.h>
 #include <string.h>
-#include "include/output.h"
-#include "include/input.h"
+#include "../include/output.h"
 
 void report(usersDataListNode *dataCurrentPtr, dictionaryListNode *dictionaryCurrentPtr, char *argv[]) {
     FILE *reportPtr = NULL;

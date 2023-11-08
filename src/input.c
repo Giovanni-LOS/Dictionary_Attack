@@ -4,7 +4,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
-#include "include/input.h"
+#include "../include/input.h"
 
 
 void insertUsersData(usersDataListNode **sPtr,const char full_name[],const char birth_date[],const char login[],const char crypt_password[],const char last_change[]) {

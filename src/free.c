@@ -3,8 +3,7 @@
 //
 
 #include <stdlib.h>
-#include "include/free.h"
-#include "include/input.h"
+#include "../include/free.h"
 
 void freeUsersDataList(usersDataListNode *currentPtr) {
     usersDataListNode *tempPtr = NULL;

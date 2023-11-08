@@ -3,9 +3,8 @@
 //
 
 #include <string.h>
-#include "include/breaking_into.h"
-#include "include/input.h"
-#include "include/output.h"
+#include "../include/breaking_into.h"
+#include "../include/output.h"
 
 void breakingInto(char encryptDictionary[][65], usersDataListNode *dataCurrentPtr, dictionaryListNode *dictionaryCurrentPtr, int words, char *argv[]){
     if(dataCurrentPtr == NULL){

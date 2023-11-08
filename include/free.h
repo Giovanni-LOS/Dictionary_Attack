@@ -5,7 +5,7 @@
 #ifndef DICTIONARY_ATTACK_FREE_H
 #define DICTIONARY_ATTACK_FREE_H
 
-#include "input.h"
+#include "../include/input.h"
 
 void freeUsersDataList(usersDataListNode *currentPtr);
 void freeDictionaryList(dictionaryListNode *currentPtr);
